@@ -31,6 +31,12 @@ header img {
   width: 100px;
 }
 
+.x {
+  display: none;
+  position: relative;
+  top: -5px;
+}
+
 #listUser {
   width: 50%;
   margin: 50px auto auto;
@@ -83,8 +89,16 @@ header img {
     display: none;
   }
 
+  .x {
+    display: inline-block;
+  }
+
   .cards-wrap {
     grid-template-columns: auto auto auto auto auto;
     margin-top: 20px;
+  }
+
+  span.material-symbols-sharp {
+    display: none;
   }
 }
