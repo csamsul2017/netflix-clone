@@ -44,26 +44,24 @@
   text-align: center;
 }
 
+.img-user-1 {
+  max-height: 100px;
+  max-width: 100px;
+  min-height: 84px;
+  min-width: 84px;
+  border: 5px solid transparent;
+}
+
+.img-user-1:hover {
+  border-color: white;
+}
+
 .card > p {
   opacity: 0.5;
 }
 
 .card:hover p {
   opacity: 1;
-}
-
-.box {
-  height: 100px;
-  width: 100px;
-  display: flex;
-  justify-content: space-around;
-  background-color: rgb(251, 131, 88);
-  border: 5px solid transparent;
-  transition: border-color 0.1s;
-}
-
-.box:hover {
-  border-color: white;
 }
 
 .circle {
